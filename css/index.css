@@ -1,0 +1,520 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,nav,p,dl,dd,ul,ol,textarea,from,input{padding:0;margin:0;font:12px/1.5 Tahoma,'\5FAE\8F6F\96C5\9ED1','Microsoft Yahei',"hiragino sans gb",Helvetica,Arial,"\5b8b\4f53",'sans-serif';}
+a{text-decoration: none;}
+li{list-style:none;}
+img{border:none;vertical-align: top;}
+.clearFix{zoom:1;}
+.clearFix:after{content:"";display:block;clear:both;}
+/*标题导航*/
+.titleNav{width:100%;height:41px;background: url(../img/title_bj.jpg) repeat-x;}
+/*.titleNav .nav{width:1349px;margin:0 auto;}*/
+.titleNav .logo{float:left;width:88px;height:0;padding-top:32px;margin:5px 0 0 20px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat;}
+.titleNav .navL {float:left;padding-left:23px;}
+.titleNav .navL li{float:left;}
+.titleNav .mv{position:relative;}
+.titleNav .mv ul{position:absolute;top:41px;left:0;}
+.titleNav .mv ul a{display:block;width:71px;height:33px;line-height:33px;padding-left:9px;color:#fff;background-color:#111;}
+.titleNav .v_Bang{position:relative;}
+.titleNav .v_Bang ul{position:absolute;top:41px;left:0;}
+.titleNav .v_Bang ul a{display:block;width:71px;height:33px;line-height:33px;padding-left:9px;color:#fff;background-color:#111;}
+.titleNav .mv ul,.titleNav .v_Bang ul{display:none;}
+.titleNav .nav  a{float:left;height:41px;line-height:41px;padding:0 12px 0 13px;color:#ccc;}
+.titleNav .nav .active{color:#ccff99;}
+.titleNav .nav  a:hover{background:#000;color:#ccff99;}
+.nav .navL a .text{float:left;}
+.nav .navL a .xiaLa{float:left;width:7px;height:4px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -89px -9px;margin:19px 0 0 3px;}
+.nav .navL a:hover .xiaLa{background-position:-96px -9px;}
+.nav .new_tuBiao{position:relative}
+.nav .new_tuBiao .new{width:22px;height:17px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -105px 0;position:absolute;left:28px;top:3px;}
+.titleNav .search{float:left;margin-left:135px;display:inline;width:215px;height:29px;line-height:29px;margin-top:7px;background:#d8d8d8;border-radius: 15px;position:relative;}
+.titleNav .search input{width:215px;height:29px;line-height:29px;text-indent:16px;border:none;outline:none;color:#b6b6b6;background:none;}
+.nav .search .submit{width:16px;height:17px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -351px 0;border:none;outline:none;cursor:pointer;position:absolute;right:13px;top:6px;}
+.titleNav .nav .navR{float:right;margin-right:22px;}
+.nav .navR a{padding:0;}
+.nav .navR .li_l{float:left;}
+.nav .navR .li_l a{line-height:41px;padding-left:7px;}
+.nav .navR .li_l span{float:left;color:#666;height:14px;line-height:14px;margin:13px 13px 14px;}
+.nav .navR .li_r{float:left;}
+/*头部大图切换*/
+.header{width:1345px;margin:0 auto;position:relative;}
+.header .home_bj{height:506px;position:relative;}
+.home_bj img{width:1345px;height:506px;}
+.home_bj .piece{width:72px;height:72px;position:absolute;left:30px;top:217px;background:url(../img/tuBiao.png) no-repeat 0 -83px;}
+.home_bj .next{width:72px;height:72px;position:absolute;right:30px;top:217px;background:url(../img/tuBiao.png) no-repeat 0 -155px;}
+.home_bj .piece:hover{background-position:0 -227px;}
+.home_bj .next:hover{background-position:0 -299px;}
+.header .qieHuan{position:absolute;left:509px;bottom:23px;}
+.qieHuan a{float:left;font-size:28px;color:#fff;opacity:0.5;filter:alpha(opacity=50);padding:0 12px;}
+.qieHuan a:hover,.qieHuan .active{color:#8db314;}
+/*模块共有样式*/
+.wrap{width:1345px;margin:0 auto;background-color:#f2f2f2;position:relative;}
+.wrap .same{padding-top:60px;}
+/*跳转*/
+.wrap .left_tiaoZhuan{position:absolute;left:0;top:240px;width:60px;height:65px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat 0 -399px;}
+.wrap .left_tiaoZhuan:hover{background-position:0 -465px;}
+.wrap .right_tiaoZhuan{position:absolute;right:0;top:240px;width:60px;height:65px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -60px -399px;}
+.wrap .right_tiaoZhuan:hover{background-position:-60px -465px;}
+/*导航*/
+.wrap .header{width:1240px;height:50px;margin:0 auto;overflow:hidden;}
+.wrap .header nav{float:right;height:28px;line-height:28px;margin:14px -11px 12px 0;}
+.wrap .header a{float:left;font-size:14px;color:#666;padding:0 7px;margin:0 9px;}
+.wrap .header span{float:left;width:2px;height:10px;margin-top:8px;background:url(../img/tuBiao.png) no-repeat -378px 0;overflow:hidden;}
+.wrap  nav a:hover{background:#669900;color:#fff;}
+.wrap .header .active{padding:0 2px;border-bottom:2px solid #669900;}
+.wrap .header .active:hover{background:none;color:#666;}
+/*图片共有的属性*/
+.wrap .img_border img{padding:2px;border:1px solid #e8e8e8;background:#fff;}
+.wrap .img_border a:hover img{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+/*内容*/
+.wrap .content{width:1240px;margin:0 auto;}
+/*左侧*/
+.content .pic_left{float:left;margin-left:11px;display:inline;width:719px;border:1px solid #e8e8e8;background:#fff;}
+.content .pic_left img{width:468px;height:273px;padding:2px;border:none;}
+.content .pic_left .tu{float:left;}
+.content .pic_left a{font-family:\5fae\8f6f\96c5\9ed1, \u9ed1\u4f53, "Lucida Grande";}
+.content .pic_left dl{float:left;width:220px;padding:12px 0 0 15px;}
+.content .pic_left dt a{font-size:18px;color:#333;line-height:27px;}
+.content .pic_left dd{line-height:20px;padding-top:6px;}
+.content .pic_left .dd1,.dd1 a{color:#669900;}
+.content .pic_left .dd2{padding-top:9px;}
+.content .pic_left .dd2 a{color:#666;}
+.content .pic_left:hover{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+/*右侧*/
+.content .pic_right{float:left;width:496px;}
+.content .pic_right li{float:left;margin:0 0 19px 22px;display:inline;}
+.content .pic_right img{width:220px;height:124px;}
+.content .pic_right .list{position:relative;}
+.content .pic_right .list a{line-height:20px;}
+.content .pic_right .zhuDaGe{width:62px;height:44px;background:url(../img/tuBiao.png) no-repeat -738px 0;position:absolute;right:3px;top:3px;}
+.content .pic_right .text{position:absolute;left:13px;bottom:8px;color:#fff;}
+.content .pic_right .song{position:absolute;left:13px;bottom:27px;color:#fff;}
+.content .pic_right .singer{position:absolute;left:13px;bottom:8px;color:#ccff99;}
+.content .pic_right .paly_btn2{position:absolute;left:87px;top:30px;width:60px;height:60px;background:url(../img/tuBiao.png) no-repeat -440px -3px;opacity:0.01;filter:alpha(opacity=1);}
+.content .pic_right a:hover .paly_btn2{opacity:1;filter:alpha(opacity=100);}
+.content .pic_right .add{position:absolute;right:6px;bottom:6px;width:18px;height:18px;background: url(../img/tuBiao.png) no-repeat -151px -176px;opacity:0.01;filter:alpha(opacity=1);}
+.content .pic_right a:hover .add{opacity:1;filter:alpha(opacity=100);}
+/*--模块共有样式结束--*/
+/*logo*/
+#logo{width:1345px;padding-top:10px;margin:0 auto;height:84px;background-color: #f2f2f2;}
+#logo a{display:block;width:1002px;height:84px;margin:0 auto;}
+#logo img{width:1002px;height:84px;}
+/*mv首播*/
+.mv_shouBo{padding-top:24px;position:relative;}
+.mv_shouBo .header{width:1240px;height:60px;background:url(../img/mv_shouBo.jpg) no-repeat;}
+.mv_shouBo h2{float:left;width:112px;font-size:0;height:0px;padding-top:40px;background:url(../img/tuBiao.png) no-repeat -551px 0;margin:10px 0 0 10px;}
+.mv_shouBo nav{float:right;height:28px;line-height:28px;margin:20px -13px 12px 0;}
+.mv_shouBo .header a{float:left;font-size:14px;color:#fff;padding:0 7px;margin:0 9px;}
+.mv_shouBo nav a:hover{background:#669900;color:#fff;}
+.mv_shouBo nav span{float:left;width:2px;height:10px;margin-top:8px;background:url(../img/tuBiao.png) no-repeat -378px 0;overflow:hidden;}
+.mv_shouBo .header .active:hover{background:none;color:#fff;}
+/*mv首播左侧*/
+.mv_shouBo .pic_left{float:left;width:474px;height:279px;position:relative;}
+.mv_shouBo .pic_left img{width:468px;height:273px;padding:2px;border:1px solid #e8e8e8;}
+.mv_shouBo .pic_left .text{position:absolute;left:13px;bottom:35px;color:#fff;}
+.mv_shouBo .pic_left .paly_btn{position:absolute;left:208px;top:99px;width:60px;height:60px;background:url(../img/tuBiao.png) no-repeat -440px -3px;opacity:0.1;filter:alpha(opacity=10);}
+.mv_shouBo .pic_left a:hover .paly_btn{opacity:1;filter:alpha(opacity=100);}
+/*mv首播右侧*/
+.mv_shouBo .content .pic_right{float:left;width:744px;}
+.pic_right img{width:220px;height:124px;padding:2px;}
+/*跳转*/
+.mv_shouBo .left_tiaoZhuan{position:absolute;left:0;top:190px;width:60px;height:65px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat 0 -399px;}
+.mv_shouBo .left_tiaoZhuan:hover{background-position:0 -465px;}
+.mv_shouBo .right_tiaoZhuan{position:absolute;right:0;top:190px;width:60px;height:65px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -60px -399px;}
+.mv_shouBo .right_tiaoZhuan:hover{background-position:-60px -465px;}
+/*正在流行*/
+.popular .header h2{float:left;width:138px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img/tuBiao.png) no-repeat -550px -113px;}
+/*音悦V榜*/
+.music_vBang .header{padding-top:19px;position:relative;}
+.music_vBang .header h2{float:left;width:124px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img/tuBiao.png) no-repeat -550px -178px;overflow:hidden;}
+.music_vBang .header .tu{width:39px;height:0;padding-top:31px;background:url(../img/tuBiao.png) no-repeat -680px -159px;overflow:hidden;position:absolute;left:130px;top:0;}
+.music_vBang .header p{float:left;margin-left:56px;}
+.music_vBang h2 a{padding:0;}
+.music_vBang .header .riqi{color:#999;height:32px;line-height:32px;margin-top:6px;border-left:1px solid #d5d5d5;}
+.music_vBang .list{position:relative;}
+.music_vBang .mask{position:absolute;left:3px;top:3px;width:22px;height:22px;background-color:#d07c8a;opacity:0.5;filter:alpha(opacity=50);}
+.music_vBang .mask2{background-color:#425f0d;opacity:0.7;filter:alpha(opacity=70);}
+.music_vBang .mask3{background-color:#527789;opacity:0.6;filter:alpha(opacity=70);}
+.music_vBang .mask4{background-color:#212124;opacity:0.7;filter:alpha(opacity=70);}
+.music_vBang .text{position:absolute;left:0;top:3px;}
+/*自制节目*/
+.programs .header h2{float:left;width:127px;font-size:0;height:0px;padding-top:38px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -550px -343px;}
+.programs .header nav{position:relative;}
+.programs .header .new{position:absolute;left:80px;top:-7px;width:22px;height:17px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -105px 0;}
+/*音悦stage*/
+.music_stage .header{height:53px;}
+.music_stage .header h2{float:left;width:161px;font-size:0;height:0px;padding-top:40px;display:inline;background:url(../img/stage.png) no-repeat;overflow:hidden;}
+/*口袋-fan*/
+.kouDai_fan .header{height:53px;}
+.kouDai_fan .header h2{float:left;width:155px;font-size:0;height:0px;padding-top:39px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -395px -123px;}
+.kouDai_fan .pic_left{position:relative;}
+.kouDai_fan .pic_left strong{width:30px;height:30px;background:url(../img/tuBiao.png) no-repeat -399px -174px;position:absolute;right:21px;bottom:11px;}
+/*音悦人*/
+.musicMan .header h2{float:left;width:119px;font-size:0;height:0px;padding-top:39px;display:inline;background:url(../img/tuBiao.png) no-repeat -550px -297px;overflow:hidden;}
+/*热门推荐*/
+.hotRecommend .header h2{float:left;width:195px;font-size:0;height:0px;padding-top:39px;display:inline;background:url(../img/tuBiao.png) no-repeat -550px -251px;overflow:hidden;}
+.hotRecommend .content .pic_left dd{padding-top:3px;}
+/*粉丝聚焦*/
+.Fans_focus .header h2{float:left;width:132px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img/tuBiao.png) no-repeat -550px -527px;overflow:hidden;}
+.Fans_focus .pic_left:hover{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+/*音悦资讯*/
+.Gigbeat .header h2{float:left;width:144px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img/tuBiao.png) no-repeat -550px -389px;overflow:hidden;}
+.Gigbeat .pic_left{float:left;width:474px;height:279px;position:relative;}
+.Gigbeat .pic_left img{width:468px;height:273px;padding:2px;border:1px solid #e8e8e8;}
+.Gigbeat .pic_left a:hover img{/*border:1px #b4c88b solid;box-shadow:0 0 3px #690;*/}
+.Gigbeat .pic_left .text{position:absolute;left:13px;bottom:13px;color:#ccff99;font-weight:bold;}
+.Gigbeat .pic_right{float:left;width:744px;height:279px;}
+.Gigbeat .pic_right li{width:224px;height:276px;background:#fff;border:1px solid #e8e8e8;}
+.Gigbeat .pic_right img{border:none;width:220px;height:124px;padding-bottom:6px;}
+.Gigbeat .pic_right a:hover img{border:none;box-shadow:none;}
+.Gigbeat .pic_right p{width:224px;text-indent:16px;line-height:28px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;border-bottom:1px solid #f1f1f1;}
+.Gigbeat .pic_right .p5{border-bottom:none;line-height:26px;}
+.Gigbeat .pic_right p a{color:#333;}
+.Gigbeat .pic_right p:hover{background:#f5f5f5;}
+.Gigbeat .pic_right a:hover{color:#669900;}
+.Gigbeat .pic_right .img{position:relative;}
+.Gigbeat .pic_right .text{display:block;width:203px;font-weight:bold;position:absolute;left:17px;bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.Gigbeat .pic_right .tu{width:34px;height:24px;position:absolute;left:7px;top:2px;background:url(../img/tuBiao.png) no-repeat;}
+.Gigbeat .pic_right .tu1{background-position:-516px -389px;}
+.Gigbeat .pic_right .tu2{background-position:-448px -389px;}
+.Gigbeat .pic_right .tu3{background-position:-482px -389px;}
+/*精品悦单*/
+.wrap #quality{padding:65px 0 64px 0;}
+.quality .header h2{float:left;width:180px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img/tuBiao.png) no-repeat -550px -619px;overflow:hidden;}
+.quality ul{position:relative;overflow:hidden;margin-left:-11px;}
+.quality li{float:left;margin-left:22px;display:inline;width:224px;height:284px;background:#fff;border:1px solid #e8e8e8;position:relative;}
+.quality li img{padding:2px;background:#fff;}
+.quality .max_img img{border:none;width:220px;height:220px;}
+.quality .min_img{position:absolute;left:10px;bottom:41px;}
+.quality .min_img img{width:40px;height:40px;border:1px #ccc solid;box-shadow:0 0 5px #999;}
+.quality .min_img:hover img{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+.quality .name a{color:#669900;padding-left:68px;}
+.quality .text a{color:#333;line-height:40px;padding-left:14px;}
+.quality li:hover{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+/*猜你喜欢*/
+.guessYouLike {width:1345px;height:229px;border-top:1px solid #dcdcdc;margin:0 auto;background:#fff;}
+.guessYouLike .header{padding-top:30px;height:50px;}
+.guessYouLike .header h2{float:left;width:193px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img/tuBiao.png) no-repeat -550px -757px;overflow:hidden;}
+.guessYouLike .header a{float:right;font-size:14px;line-height:20px;padding:3px 4px;}
+.guessYouLike .header span{float:left;width:14px;height:16px;margin:2px 3px;display:inline;background:url(../img/tuBiao.png) no-repeat -532px -757px;}
+.guessYouLike .header a:hover{background-color:#669900;color:#fff;}
+.guessYouLike .header a:hover span{background-position:-532px -777px;}
+.guessYouLike .content{width:1240px;margin:0 auto;}
+.guessYouLike ul{position:relative;overflow:hidden;}
+.guessYouLike li{float:left;width:226px;height:130px;margin:0 11px 19px 11px;display:inline;position:relative;}
+.guessYouLike li img{width:220px;height:124px;}
+.guessYouLike li .song{position:absolute;left:13px;bottom:27px;color:#fff;font-weight:bold;width:200px;overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.guessYouLike li .singer{position:absolute;left:13px;bottom:8px;color:#ccff99;}
+.guessYouLike li .paly_btn2{position:absolute;left:87px;top:30px;width:60px;height:60px;background:url(../img/tuBiao.png) no-repeat -440px -3px;opacity:0.01;filter:alpha(opacity=1);}
+.guessYouLike .content a:hover .paly_btn2{opacity:1;filter:alpha(opacity=100);}
+.guessYouLike .content .add{position:absolute;right:6px;bottom:6px;width:18px;height:18px;background: url(../img/tuBiao.png) no-repeat -151px -176px;opacity:0.01;filter:alpha(opacity=1);}
+.guessYouLike .content a:hover .add{opacity:1;filter:alpha(opacity=100);}
+/*登陆试一试*/
+.dengLu{width:1345px;height:128px;border-top:1px solid #dcdcdc;margin:0 auto;background:#f2f2f2;position:relative;}
+.dengLu span{position:absolute;width:44px;height:20px;background: url(../img/tuBiao.png) no-repeat -756px -45px;left:653px;top:-1px;}
+.dengLu h2{font-size:24px;line-height:128px;text-align:center;color:#666;}
+.dengLu h2 a{color:#669900;}
+/*底部*/
+.index_footer{width:1345px;height:150px;margin:0 auto;background:#fff;text-align:center;position:relative;}
+.index_footer .tu{position:absolute;bottom:31px;right:220px;width:35px;height:41px;background:url(../img/tuBiao.png) no-repeat -765px -821px;}
+.index_footer nav {padding:36px 0 20px 0;width:495px;margin:0 auto;}
+.index_footer nav a{float:left;padding:0 12px;font-size:14px;line-height:22px;color:#666;}
+.index_footer nav span{float:left;width:2px;height:10px;margin:6px 0;background:url(../img/tuBiao.png) no-repeat -378px 0;overflow:hidden;}
+.index_footer p{color:#999;line-height:22px;text-align:center;}
+.index_footer p a{color:#999;}
+.index_footer p span{padding:0 4px;}
+.index_footer .p2{margin-left:-24px;_margin-left:-35px;}
+/*便捷悦单*/
+.guDing{position:fixed;_display:none;top:150px;right:0;width:50px;height:142px;overflow:hidden;background:url(../img/tuBiao.png) no-repeat -500px -477px;}
+
+/*mv*/
+/*外框*/
+#m_wrap{width:100%;height:2573px;background:#efefef;}
+/*内容头部*/
+.m_header{width:1000px;margin:0 auto;height:82px;}
+.m_header h2{float:left;font-size:24px;color:#669900;padding-top:18px;}
+.m_header nav{float:right;padding:31px 31px 0 0;}
+.m_header nav a{float:left;margin:0 17px 0 18px;color:#333;font-size:16px;line-height:24px;padding-bottom:2px;}
+.m_header nav span{float:left;margin-top:7px;line-height:20px;width:1px;height:10px;background: url(../img_mv/tuBiao_mv.png) no-repeat;overflow:hidden;}
+.m_header nav .active{border-bottom:2px solid #669900;}
+.m_header nav a:hover{color:#669900;}
+/*内容*/
+#m_content{width:1000px;border-radius:2px;background:#fff;margin:0 auto 30px;}
+#m_module_one{width:984px;padding:43px 5px 0 11px;}
+#m_module_two{width:983px;padding:0 9px 0 8px;}
+#m_module_three{width:979px;padding:49px 13px 0 8px;}
+#m_module_four{width:982px;height:555px;padding:49px 10px 49px 8px;}
+.m_content h2{width:191px;height:0;padding-top:43px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -180px;margin-bottom:13px;}
+.m_content ol{width:321px;height:498px;border:1px solid #ebebeb;}
+.m_content ol li{position:relative;width:321px;height:37px;line-height:37px;border-bottom:1px solid #f1f1f1;float:left;}
+.m_content ol .mask{width:25px;height:25px;background:#d45d6a;opacity:0.7;filter:alpha(opacity=70);position:absolute;left:21px;top:13px;}
+.m_content ol .shu{color:#999;padding-left:24px;float:left;}
+.m_content ol .shu1{padding:0;color:#fff;position:absolute;left:30px;top:15px;font-size:14px;font-weight:bold;}
+.m_content ol .shu2{color:#e35b72;}
+.m_content ol .song{color:#666;padding-left:4px;float:left;}
+.m_content ol .singer{color:#669900;float:right;padding-right:25px;}
+.m_content ol .add{float:right;margin:12px 15px 11px 0;display:inline;width:14px;height:14px;overflow:hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -210px -106px;}
+.m_content ol .playBtn{float:left;color:#669900;width:110px;height:27px;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -151px;text-indent:52px;line-height:24px;margin:12px 0 0 26px;}
+.m_content ol .playBtn:hover{background-position: -111px -151px;}
+.m_content ol .text{color:#666;float:right;line-height:25px;padding:13px 19px 0 0;}
+.m_content ol img{float:left;width:126px;height:71px;padding:3px;background-color:#fff;border:1px solid #ccc;margin:9px 10px 17px 17px;}
+.m_content ol .li1{float:left;height:105px;line-height:20px;}
+.m_content .li1 dl{float:left;padding-top:7px;}
+.m_content .li1 dt a{color:#666;}
+.m_content .li1 dd a{color:#899966;}
+.m_content ol .li1 .add{margin:63px 15px 11px 0;}
+.m_content ol .li11{float:left;height:50px;border:none;}
+/*积分推荐*/
+.m_content .div1{float:left;}
+/*会员推荐*/
+.m_content .div2{float:left;padding-left:5px;}
+.m_content .div2 h2{width:191px;height:0;padding-top:43px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -225px;margin-bottom:13px;}
+/*音乐分类*/
+.music_Category{float:right;width:300px;}
+.music_Category h3{width:266px;font-size:18px;line-height:26px;color:#336633;text-indent:3px;margin-left:15px;padding-bottom:11px;border-bottom:1px solid #ccc;}
+.music_Category dl{width:266px;margin-left:15px;}
+.music_Category .dl1{padding-top:19px;border-top:1px solid #ccc;margin-top:1px;}
+.music_Category .dl2,.content .music_Category .dl3{width:280px;padding-top:10px;}
+.music_Category dl a{padding:4px 5px 3px 5px;white-space:nowrap;}
+.music_Category dt span{float:left;width:6px;height:6px;overflow:hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -183px -107px;margin:9px 4px 0 2px;}
+.music_Category dt{font-size:14px;line-height:26px;color:#9f9f9f;}
+.music_Category dd{line-height:29px;}
+.music_Category dd a{color:#5e5d5d;}
+.music_Category dd a:hover{color:#fff;background-color:#669900;}
+.music_Category img{width:300px;height:199px;padding:29px 0 27px 0;}
+/*本周最热*/
+.m_content .div3{float:left;height:556px;}
+.m_content .div3 h2{width:135px;height:0;padding-top:44px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -270px;margin-bottom:12px;}
+/*订阅更新*/
+.m_content .div4{float:left;padding-left:6px;height:556px;}
+.m_content .div4 h2{width:184px;height:0;padding-top:44px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -316px;margin-bottom:12px;}
+/*音悦人推荐*/
+.m_content .div5{float:left;padding-left:8px;height:557px;}
+.m_content .div5 h2{width:165px;height:0;padding-top:43px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -107px;margin-bottom:13px;}
+.musician{width:321px;height:499px;border:1px solid #ebebeb;border-bottom:none;}
+.musician li{float:left;height:124px;border-bottom:1px solid #ebebeb;}
+.musician img{float:left;width:109px;height:110px;border:1px solid #cecece;margin:6px 10px;vertical-align: top;}
+.musician div{float:left;width:178px;margin-right:12px;display:inline;}
+.musician div a{color:#666;}
+.musician h4{float:left;width:178px;margin-bottom:5px;}
+.musician .name{float:left;font-size:14px;line-height:38px;color:#669900;}
+.musician .xuanZe{float:right;padding:6px;margin-top:5px;}
+.musician h4 span{float:left;width:16px;height:16px;overflow:hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -166px -107px;margin-right:6px;display:inline;}
+.musician .xuanZe:hover{background:#669900;border-radius:3px;color:#fff;}
+.musician .xuanZe:hover span{background-position:-224px -106px;}
+.musician p{line-height:24px;margin-top:3px;}
+.musician p a{float:left;}
+.musician p span{float:left;width:4px;height:4px;overflow:hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -191px -106px;margin:10px 5px 10px 0;display: inline;}
+.musician p .add{float:right;width:14px;height:14px;overflow:hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -195px -106px;margin:5px 8px 5px 0;display: inline;}
+.musician p .play{float:right;width:14px;height:14px;overflow:hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -210px -106px;margin:5px 0;display: inline;}
+#m_module_two .div3,#m_module_two .div4,#m_module_two .div5{margin-top:49px;}
+/**/
+#m_module_three .song,#m_module_four .song{padding-left:20px;}
+/*70年代*/
+.m_content .div6{float:left;}
+.m_content .div6 h2{width:86px;height:0;padding-top:41px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -366px;margin:0 0 13px 4px;}
+.decade_70 .li11{background-color:#f7faf9;}
+/*80年代*/
+.m_content .div7{float:left;padding-left:5px;}
+.m_content .div7 h2{width:86px;height:0;padding-top:41px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -87px -366px;margin:0 0 13px 2px;}
+.decade_80 .li11{float:left;background-color:#f7faf9;}
+/*90年代*/
+.m_content .div8{float:left;padding-left:5px;}
+.m_content .div8 h2{width:86px;height:0;padding-top:41px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -174px -366px;margin:0 0 13px 3px;}
+.decade_90 .li11{float:left;background-color:#f7faf9;}
+/*节目*/
+.m_content .div9{float:left;width:323px;position:relative;}
+.m_content .div9 h2{width:90px;height:0;padding-top:43px;overflow:hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -411px;margin-bottom:13px;}
+.div9 .div{position:absolute;left:189px;top:14px;width:123px;color:#333;}
+.div9 .div a{color:#669900;padding-left:5px;}
+.div9 .div span{float:left;width:19px;height:13px;overflow:hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat 0 -461px;}
+.program .li11{float:left;background-color:#f7faf9;}
+/*心情*/
+.m_content .div10{float:left;padding-left:5px;position:relative;}
+.m_content .div10 h2{width:90px;height:0;padding-top:43px;overflow: hidden;background:url(../img_mv/tuBiao_mv.png) no-repeat -91px -411px;margin-bottom:13px;}
+.mood .li11{float:left;background-color:#f7faf9;}
+.div10 .div{position:absolute;left:213px;top:14px;width:123px;color:#333;}
+/*天气*/
+.m_content .div11{float:left;padding-left:8px;position:relative;}
+.m_content .div11 h2{width:101px;height:0;padding-top:40px;overflow: hidden;background:url(../img_mv/weather.jpg) no-repeat;margin-bottom:15px;}
+.weather .li11{float:left;background-color:#f7faf9;}
+.div11 .div{position:absolute;left:212px;top:14px;width:123px;color:#333;}
+/*v榜*/
+#v_wrap{width:1000px;margin:0 auto;}
+/*内容头部*/
+.v_header{width:1000px;height:109px;margin:0 auto;}
+.v_header h2{float:left;padding-top:18px;color:#669900;}
+.v_header h2 .logo{float:left;width:65px;height:65px;background:url(../img_vBang/logo_v3.jpg) no-repeat;margin:0 10px 0 6px;}
+.v_header h2 .text{float:left;font-size:24px;line-height:48px;padding-top:16px;}
+.v_header nav{float:right;padding-top:47px;}
+.v_header nav a{float:left;padding:0 8px;margin:0 9px;color:#666;font-size:16px;line-height:28px;padding-bottom:2px;}
+.v_header nav span{float:left;margin-top:9px;line-height:28px;width:1px;height:10px;background: url(../img_mv/tuBiao_mv.png) no-repeat;overflow:hidden;}
+.v_header nav .active{padding:0 2px;border-bottom:2px solid #669900;}
+.v_header nav .vv{color:#669900;}
+.v_header nav .active:hover{background: none;color:#666;}
+.v_header nav a:hover{color:#fff;background-color:#669900;}
+/*内容*/
+#v_content{width:1000px;border-radius:2px;background:#fff;margin:0 auto 30px;}
+#v_content .v_module_one{width:960px;padding:20px;}
+#v_content .v_module_two{width:962px;padding:10px 18px 0 20px;}
+#v_content .v_module_three{width:962px;padding:42px 18px 0 20px;}
+#v_content .v_module_four{width:962px;padding:59px 18px 0 20px;}
+#v_content .v_module_five{width:960px;padding:24px 20px 45px 20px;}
+#v_content .v_module_six{width:960px;background-color:#f8f7f7;padding:20px 20px 0 20px;}
+#v_content .v_module_seven{width:960px;background-color:#fff;padding:20px 20px 0 20px;}
+#v_content .header{width:962px;height:56px;}
+#v_content .header a{float:right;font-size:14px;line-height:28px;color:#666;padding:0 5px;margin-top:16px;}
+#v_content .header a:hover{background:#669900;color:#fff;}
+/*打榜动态*/
+.v_module_one .div1_pic{float:left;width:570;height:365px;position:relative;}
+.v_module_one .div1_pic img{width:570;height:365px;}
+.v_module_one .piece{width:36px;height:36px;position:absolute;left:10px;top:165px;background:url(../img/tuBiao.png) no-repeat 0 -800px;}
+.v_module_one .next{width:36px;height:36px;position:absolute;right:10px;top:165px;background:url(../img/tuBiao.png) no-repeat -84px -800px;}
+.v_module_one .piece:hover{background-position:0 -838px;}
+.v_module_one .next:hover{background-position:-84px -838px;}
+.v_module_one .qieHuan{position:absolute;right:4px;bottom:13px;}
+.v_module_one .qieHuan li{float:left;}
+.v_module_one .qieHuan a{font-size:28px;color:#fff;opacity:0.5;filter:alpha(opacity=50);padding:0 12px;}
+.v_module_one .qieHuan a:hover,.qieHuan li .active{color:#8db314;}
+.v_module_one .div1_lieBiao{float:right;width:372px;height:365px;}
+.div1_lieBiao h3{font-size:22px;line-height:26px;color:#669900;padding-bottom:4px;border-bottom:2px solid #669900;}
+.div1_lieBiao h3 span{font-size:12px;line-height:20px;color:#999;padding-left:7px;}
+.div1_lieBiao .dynamic{width:370px;height:332px;border:1px solid #e8e8e8;border-top:none;position:relative;}
+.dynamic nav{float:left;line-height:12px;padding:11px 0 9px 0;}
+.dynamic nav .xuan{position:absolute;left:13px;top:0;width:9px;height:5px;overflow:hidden;background: url(../img_vBang/tu.png) no-repeat;}
+.dynamic a{color:#669900;}
+.dynamic nav a{padding:0 5px 0 6px;border-right:1px solid #b299b2;color:#666;}
+.dynamic nav .wu{border:none;}
+.dynamic nav .active{color:#669900;font-weight:bold;}
+.dynamic .span1{float:right;padding-right:5px;color:#666;}
+.dynamic .shu{float:left;width:23px;padding-left:8px;color:#ef5b72;font-weight:bold;}
+.dynamic .shu1{color:#669900;}
+.dynamic li{width:370px;line-height:28px;}
+.dynamic li:hover{background-color:#ebf5e5;}
+.dynamic .nav:hover,.dynamic .li11:hover{background:none;}
+.dynamic .nav a:hover{color:#669900;}
+.dynamic li .song{float:left;width:170px;}
+.dynamic li .singer{float:left;width:115px;color:#666;}
+.dynamic li .singer a{color:#666;}
+.dynamic .singer:hover,.singer:hover a{color:#669900;}
+.dynamic li span{float:left;}
+.dynamic .paiHang{float:left;margin:12px 0 9px 7px;width:7px;height:7px;overflow:hidden;background:url(../img_vBang/tu.png) no-repeat -11px 0;}
+.dynamic .paiHang_x{float:left;margin:12px 0 9px 7px;width:7px;height:7px;overflow:hidden;background:url(../img_vBang/tu.png) no-repeat -19px 0;}
+.dynamic .text{float:right;margin-right:12px;width:40px;line-height:18px;color:#666;}
+.dynamic .text:hover{color:#fff;background:#669900;}
+/*周榜冠军*/
+.v_module_two .title{width:962px;height:76px;position:relative;}
+.v_module_two h2 span{float:left;width:138px;font-size:0;height:0px;padding-top:38px;overflow:hidden;background:url(../img_vBang/tuBiao.jpg) no-repeat 0 -19px;margin:19px 45px 19px 0;display:inline;}
+.v_module_two h2 .tu{position:absolute;left:135px;top:0;width:39px;height:0;padding-top:31px;background:url(../img_vBang/tuBiao.jpg) no-repeat -161px 0;overflow:hidden;}
+.v_module_two h2 .riqi{float:left;color:#999;height:32px;line-height:32px;margin-top:24px;padding-left:16px;border-left:1px solid #d5d5d5;}
+.v_module_two h2 .riqi:hover{background:none;color:#669900;}
+.v_module_two p{float:left;color:#999;height:32px;line-height:32px;margin-top:24px;padding-left:140px;}
+.v_module_two p strong{color:#666;padding:0 4px;}
+.v_module_two p time{display:inline-block;width:32px;height:24px;overflow:hidden;background:url(../img_vBang/tu.png) no-repeat 0 -15px;text-indent:7px;color:#669900;font-weight:bold;line-height:24px;}
+.v_module_two p .day{margin:0 11px 0 7px;}
+.v_module_two p .hour{margin:0 11px 0 10px;}
+.v_module_two p .mnute,.v_module_two p .second{margin:0 11px 0 9px;}
+.v_module_two .champion{position: relative;}
+.champion li{float:left;margin-right:13px;position:relative;}
+.champion li img{width:176px;height:236px;padding:2px;background:#fff;border:1px solid #e8e8e8;}
+.champion li a:hover img{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+.champion li .mask{position:absolute;left:0;bottom:0;width:182px;height:124px;background:url(../img_vBang/index_play_bg.png) no-repeat;opacity:0.01;filter:alpha(opacity=1);}
+.champion li .text{position:absolute;left:66px;bottom:17px;opacity:0.01;filter:alpha(opacity=1);}
+.champion li a:hover .mask{opacity:1;filter:alpha(opacity=100);}
+.champion li a:hover .text{color:#fff;font-weight:bold;opacity:1;filter:alpha(opacity=100);z-index: 1;}
+.champion .list5{margin-right:0;}
+/*揭榜节目*/
+.v_module_three{width:1000px;}
+.v_module_three .header h2{float:left;width:128px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img_vBang/tuBiao.jpg) no-repeat 0 -61px;overflow:hidden;}
+.v_module_three  ul{position:relative;overflow:hidden;margin-right:-8px;}
+.v_module_three  li{float:left;margin-right:8px;display:inline;width:184px;height:144px;background:#fff;border:1px solid #e8e8e8;position:relative;}
+.v_module_three  li img{padding:2px;background:#fff;}
+.v_module_three  li img{border:none;width:180px;height:102px;}
+.v_module_three  li p{color:#666;line-height:40px;width:176px;padding-left:5px;overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.v_module_three  li:hover{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+.v_module_three  li .song{position:absolute;left:14px;top:67px;color:#fff;font-weight:bold;width:152px;overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.v_module_three  li .singer{position:absolute;left:14px;top:85px;color:#ccff88;font-weight:bold;width:152px;overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.v_module_three  li .paly_btn2{position:absolute;left:64px;top:25px;width:60px;height:60px;background:url(../img/tuBiao.png) no-repeat -440px -3px;opacity:0.01;filter:alpha(opacity=1);}
+.v_module_three  li a:hover .paly_btn2{opacity:1;filter:alpha(opacity=100);}
+.v_module_three  li .add{position:absolute;right:3px;bottom:42px;width:18px;height:18px;background: url(../img/tuBiao.png) no-repeat -151px -176px;opacity:0.01;filter:alpha(opacity=1);}
+.v_module_three  a:hover .add{opacity:1;filter:alpha(opacity=100);}
+/*入围打榜*/
+.v_module_four .header h2{float:left;width:130px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img_vBang/tuBiao.jpg) no-repeat 0 -101px;overflow:hidden;}
+.v_module_four li{margin-bottom:19px;}
+/*新闻资讯*/
+.v_module_five .header h2{float:left;width:130px;font-size:0;height:0px;padding-top:38px;display:inline;background:url(../img_vBang/tuBiao.jpg) no-repeat 0 -141px;overflow:hidden;}
+.v_module_five .pic_left{float:left;width:474px;height:279px;position:relative;}
+.v_module_five .pic_left img{width:468px;height:273px;padding:2px;background:#fff;border:1px solid #e8e8e8;}
+.v_module_five .pic_left a:hover img{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+.v_module_five .pic_left .text{position:absolute;left:13px;bottom:35px;color:#fff;font-weight:bold;}
+.v_module_five .pic_right{float:left;width:486px;height:278px;}
+.v_module_five .pic_right li{float:left;width:224px;height:276px;background:#fff;border:1px solid #e8e8e8;margin-left:17px;display:inline;}
+.v_module_five .pic_right li:hover{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+.v_module_five .pic_right img{width:220px;height:124px;padding:2px;padding-bottom:4px;}
+.v_module_five .pic_right p{width:224px;text-indent:16px;line-height:28px;white-space:nowrap; overflow:hidden;text-overflow:ellipsis;border-bottom:1px solid #f1f1f1;}
+.v_module_five .pic_right .p5{border-bottom:none;line-height:26px;}
+.v_module_five p a{color:#333;}
+.v_module_five p:hover{background:#f5f5f5;}
+.v_module_five li a:hover{color:#669900;}
+.v_module_five .pic_right .img{width:220px;height:124px;position:relative;}
+.v_module_five .pic_right .mask{position:absolute;left:2px;bottom:4px;width:220px;height:124px;background:url(../img_vBang/index_play_bg.png) no-repeat;}
+.v_module_five .pic_right .text{display:block;width:203px;color:#fff;font-weight:bold;position:absolute;left:17px;bottom:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.v_module_five .pic_right .tu{width:34px;height:24px;position:absolute;left:7px;top:2px;background:url(../img/tuBiao.png) no-repeat;}
+.v_module_five .pic_right .tu1{background-position:-516px -389px;}
+.v_module_five .pic_right .tu2{background-position:-448px -389px;}
+.v_module_five .pic_right .tu3{background-position:-482px -389px;}
+/*周榜年度吉尼斯*/
+.v_module_six h2{float:left;width:155px;font-size:0;height:0px;padding-top:38px;margin:1px 0 16px 0;display:inline;background:url(../img_vBang/tuBiao.jpg) no-repeat 0 -181px;overflow:hidden;}
+.v_module_six .xuanZe{float:left;width:118px;height:29px;border:1px solid #cacaca;border-radius:2px;font-size:16px;line-height:29px;text-indent:38px;background-color:#fff;margin-left:36px;position:relative;}
+#v_content .v_module_six .last{position:absolute;left:1px;top:-15px;width:26px;height:27px;overflow:hidden;background: url(../img_vBang/tu.png) no-repeat -248px 0;border-right:1px solid #c4c4c4;padding:0;}
+#v_content .v_module_six .last:hover{background-position:-248px -27px;}
+#v_content .v_module_six .next{position:absolute;right:1px;top:-15px;width:26px;height:27px;overflow:hidden;background: url(../img_vBang/tu.png) no-repeat -248px -135px;border-left:1px solid #c4c4c4;padding:0;}
+#v_content .guinness_nav{float:right;font-size:14px;line-height:28px;width:310px;height:28px;}
+#v_content .guinness_nav a{float:left;margin:0 9px 25px 10px;padding:0 7px 0 8px;display:inline;}
+#v_content .guinness_nav  span{float:left;margin-top:9px;width:1px;height:10px;background: url(../img_mv/tuBiao_mv.png) no-repeat;overflow:hidden;}
+#v_content .guinness_nav  a:hover{background:#669900;color:#fff;}
+#v_content .guinness_nav .active{padding:0 2px;border-bottom:2px solid #669900;}
+#v_content .guinness_nav .active:hover{background:none;color:#666;}
+.v_module_six  ul{position:relative;padding-bottom:37px;}
+.v_module_six  li{float:left;margin-right:19px;display:inline;width:224px;height:232px;background:#fff;border:1px solid #e8e8e8;position:relative;}
+.v_module_six .list1{margin-bottom: 25px;}
+.v_module_six .list4,.v_module_six .list8{margin-right:-19px;}
+.v_module_six  li img{width:220px;height:124px;padding:2px;background:#fff;}
+.v_module_six  li p{color:#666;line-height:40px;width:176px;padding-left:5px;overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.v_module_six  li .tu{float:left;width:19px;height:22px;overflow:hidden;background:url(../img_vBang/tu.png) no-repeat 0 -72px;margin:10px 6px 0 15px;}
+.v_module_six .text span{color:#999933;}
+.v_module_six .text2 span{color:#333;}
+.v_module_six .text2{padding-left:15px;line-height:23px;}
+.v_module_six  li:hover{border:1px #b4c88b solid;box-shadow:0 0 3px #690;}
+.v_module_six  li .song{position:absolute;left:13px;top:86px;color:#fff;font-weight:bold;width:152px;overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.v_module_six  li .singer{position:absolute;left:13px;top:105px;color:#ccff88;font-weight:bold;width:152px;overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.v_module_six  li .paly_btn2{position:absolute;left:64px;top:25px;width:60px;height:60px;background:url(../img/tuBiao.png) no-repeat -440px -3px;opacity:0.01;filter:alpha(opacity=1);}
+.v_module_six  li a:hover .paly_btn2{opacity:1;filter:alpha(opacity=100);}
+.v_module_six  li .add{position:absolute;right:4px;top:106px;width:18px;height:18px;background: url(../img/tuBiao.png) no-repeat -151px -176px;opacity:0.01;filter:alpha(opacity=1);}
+.v_module_six  a:hover .add{opacity:1;filter:alpha(opacity=100);}
+/*合作专区*/
+.v_module_seven .header{height:46px;}
+.v_module_seven .header h2{float:left;width:130px;font-size:0;height:0px;padding-top:38px;overflow:hidden;background:url(../img_vBang/tuBiao.jpg) no-repeat 0 -221px;}
+.v_module_seven .header a{float:right;font-size:14px;line-height:21px;color:#666;padding:0 5px 0 2px;margin-top:10px;}
+.v_module_seven .header a:hover{background:#669900;color:#fff;}
+.v_module_seven ul{padding-left:10px;}
+.v_module_seven ul .title{float:left;width:950px;height:38px;font-size:14px;line-height:38px;padding-top:11px;}
+.v_module_seven ul div{width:950px;}
+.v_module_seven ul a{float:left;width:88px;height:31px;padding-right:18px;}
+.v_module_seven ul img{width:88px;height:31px;}
+.v_module_seven .link2 a{padding-bottom:18px;}
+.v_module_seven .link2 .bottom{padding-bottom:0;}
+.v_module_seven .distance16{padding-right:16px;}
+.v_module_seven .distance15{padding-right:15px;}
+.v_module_seven .link3{padding-bottom:11px;}
+
+/*底部*/
+.footer{width:100%;height:150px;margin:0 auto;background:#fff;text-align:center;position:relative;}
+.footer .tu{position:absolute;bottom:31px;right:220px;width:35px;height:41px;background:url(../img/tuBiao.png) no-repeat -765px -821px;}
+.footer nav {padding:36px 0 20px 0;width:495px;margin:0 auto;}
+.footer nav a{float:left;padding:0 12px;font-size:14px;line-height:22px;color:#666;}
+.footer nav span{float:left;width:2px;height:10px;margin:6px 0;background:url(../img/tuBiao.png) no-repeat -378px 0;overflow:hidden;}
+.footer p{color:#999;line-height:22px;text-align:center;}
+.footer p a{color:#999;}
+.footer p span{padding:0 4px;}
+.footer .p2{margin-left:-24px;}
