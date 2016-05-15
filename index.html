@@ -11,6 +11,7 @@
 <script> DD_belatedPNG.fix('.wrap,.nav,.logo,.xiaLa,.new_tuBiao span,.left_prak_side,.right_prak_side,.searchbody,.submit,.piece,.next,.wrap h2,.wrap nav span,.pic_left,.pic_right,.pic_left .paly_btn,.pic_right .zhuDaGe,.wrap .paly_btn2,.pic_right .add,.header h2,.header h2 a,.dengLu span,.left_tiaoZhuan,.right_tiaoZhuan,.pic_left strong,.pic_right .img .tu,.m_header nav span,.m_content h2,.m_content ol li .add,.m_content ol li .playBtn,.m_content .div2 h2,.music_Category dt span,div h2,.div5 span,.div5 .add,.div5 .play,.v_header h2 .logo,.v_header nav span,.div1_pic .piece,.div1_pic .next,.dynamic li nav .xuan,.dynamic li .paiHang,.dynamic li .paiHang_x,.v_module_two p time,.champion li .mask,.v_module_three  li .paly_btn2,.v_module_five .mask,.v_module_five .tu,.v_module_six .header .guinness_nav  span,.v_module_six  li p .tu,.v_module_six  li .paly_btn,.v_module_five .pic_right .img .tu,.v_module_six .xuanZe .last,.v_module_five .v_content .pic_right .img .mask,index_footer .tu,index_footer .nav span,.footer .tu,.footer nav span,'); </script>
 <![endif]-->
 <link href="css/index.css" rel="stylesheet"/>
+<script src="js/index.js"></script>
 </head>
 <body>
 <header class="titleNav clearFix" id="titleNav">
@@ -83,13 +84,27 @@
 	</div> 
 </header>
 <section class="header">
-	<div class="home_bj">
-		<a href="#"><img src="img/picBj.jpg"/></a>
-		<a href="#" class="piece" title="上一张"></a>
-		<a href="#" class="next" title="下一张"></a>
+	<div class="home_bj" id="home_bj">
+		<ul id="aImg" class="clearFix">
+			<li><a href="javascript:;"><img src="img/picBj10.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj2.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj3.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj4.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj5.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj6.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj7.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj8.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj9.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj10.jpg"/></a></li>
+			<li><a href="javascript:;"><img src="img/picBj.jpg"/></a></li>
+		</ul>				
 	</div>
-	<div class="qieHuan">
+	<a href="#" class="piece" id="piece" title="上一张"></a>
+	<a href="#" class="next" id="next" title="下一张"></a>
+	<div class="qieHuan" id="qieHua">
 		<a href="#" class="active">●</a>
+		<a href="#">●</a>
 		<a href="#">●</a>
 		<a href="#">●</a>
 		<a href="#">●</a>
