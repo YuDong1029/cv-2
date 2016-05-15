@@ -41,7 +41,7 @@ img{border:none;vertical-align: top;}
 .header .home_bj{height:506px;position:relative;overflow: hidden;}
 .home_bj img{width:1351px;height:506px;}
 .header .piece{width:72px;height:72px;position:absolute;left:30px;top:217px;background:url(../img/tuBiao.png) no-repeat 0 -83px;}
-.header .next{width:72px;height:72px;position:absolute;right:30px;top:217px;background:url(../img/tuBiao.png) no-repeat 0 -155px;}
+.header .next{width:72px;height:72px;position:absolute;right:30px;top:217px;background:url(../img/tuBiao.png) no-repeat 0 -153px;}
 .header .piece:hover{background-position:0 -227px;}
 .header .next:hover{background-position:0 -299px;}
 .header .qieHuan{position:absolute;left:509px;bottom:23px;}
